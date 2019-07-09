@@ -1,0 +1,76 @@
+#root,
+.root-inside,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #161a1e !important;
+}
+
+.container {
+  height: 100%;
+}
+
+.loading {
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #393c41 !important;
+  background-color: #1d2228 !important;
+  border-radius: 3px !important;
+  text-transform: capitalize;
+  line-height: 18px;
+  color: #FFF;
+
+  h1 {
+    color: #FFF;
+    font-size: 1.5rem;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
